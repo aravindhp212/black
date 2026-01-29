@@ -186,7 +186,7 @@ const Inventory: React.FC = () => {
               <h3 className="font-semibold text-foreground mb-1">{product.name}</h3>
               <p className="text-sm text-muted-foreground mb-3">{getCategoryName(product.categoryId)}</p>
               <div className="flex items-center justify-between mb-4">
-                <span className="text-lg font-bold text-primary">${product.price.toFixed(2)}</span>
+                <span className="text-lg font-bold text-primary">₹{product.price.toFixed(2)}</span>
                 <span className="text-sm text-muted-foreground">{product.stock} in stock</span>
               </div>
               <div className="flex gap-2">

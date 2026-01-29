@@ -134,7 +134,7 @@ const Cashiers: React.FC = () => {
                 <div>
                   <p className="text-xs text-muted-foreground mb-1">Total Sales</p>
                   <div className="flex items-center gap-1">
-                    <DollarSign className="w-4 h-4 text-primary" />
+                    ₹
                     <span className="text-lg font-bold text-foreground">
                       {salesData.total.toFixed(2)}
                     </span>

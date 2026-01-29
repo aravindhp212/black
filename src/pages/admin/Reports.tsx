@@ -188,7 +188,7 @@ const Reports: React.FC = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         <div className="stat-card-gradient gradient-primary">
           <p className="text-sm text-white/80 mb-1">Total Sales</p>
-          <p className="text-2xl font-bold text-white">${summary.totalSales.toFixed(2)}</p>
+          <p className="text-2xl font-bold text-white">₹{summary.totalSales.toFixed(2)}</p>
         </div>
         <div className="stat-card">
           <p className="text-sm text-muted-foreground mb-1">Transactions</p>
@@ -196,19 +196,19 @@ const Reports: React.FC = () => {
         </div>
         <div className="stat-card">
           <p className="text-sm text-muted-foreground mb-1">Avg. Transaction</p>
-          <p className="text-2xl font-bold text-foreground">${summary.avgTransaction.toFixed(2)}</p>
+          <p className="text-2xl font-bold text-foreground">₹{summary.avgTransaction.toFixed(2)}</p>
         </div>
         <div className="stat-card">
           <p className="text-sm text-muted-foreground mb-1">Cash Sales</p>
-          <p className="text-2xl font-bold text-foreground">${summary.cashSales.toFixed(2)}</p>
+          <p className="text-2xl font-bold text-foreground">₹{summary.cashSales.toFixed(2)}</p>
         </div>
         <div className="stat-card">
           <p className="text-sm text-muted-foreground mb-1">QR Sales</p>
-          <p className="text-2xl font-bold text-foreground">${summary.qrSales.toFixed(2)}</p>
+          <p className="text-2xl font-bold text-foreground">₹{summary.qrSales.toFixed(2)}</p>
         </div>
         <div className="stat-card">
           <p className="text-sm text-muted-foreground mb-1">Total Tax</p>
-          <p className="text-2xl font-bold text-foreground">${summary.totalTax.toFixed(2)}</p>
+          <p className="text-2xl font-bold text-foreground">₹{summary.totalTax.toFixed(2)}</p>
         </div>
       </div>
 

@@ -48,13 +48,13 @@ const Dashboard: React.FC = () => {
   const statCards = [
     {
       label: "Today's Sales",
-      value: `$${stats.todaySales.toFixed(2)}`,
+      value: `₹${stats.todaySales.toFixed(2)}`,
       icon: DollarSign,
       gradient: 'gradient-primary',
     },
     {
       label: 'Monthly Sales',
-      value: `$${stats.monthlySales.toFixed(2)}`,
+      value: `₹${stats.monthlySales.toFixed(2)}`,
       icon: TrendingUp,
       gradient: 'gradient-success',
     },
@@ -84,7 +84,7 @@ const Dashboard: React.FC = () => {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-foreground">Dashboard</h1>
-          <p className="text-muted-foreground">Welcome back! Here's your business overview.</p>
+          <p className="text-muted-foreground">Hello! Here’s your business snapshot.</p>
         </div>
         <div className="flex gap-3">
           <Button variant="outline" onClick={() => navigate('/admin/inventory')}>

@@ -58,7 +58,7 @@ const Login: React.FC = () => {
             </div>
             <h1 className="text-3xl font-bold text-foreground">Welcome Back</h1>
             <p className="mt-2 text-muted-foreground">
-              Sign in to access your POS system
+              Access your Black Pekoe POS system
             </p>
           </div>
 
